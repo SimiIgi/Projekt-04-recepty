@@ -168,6 +168,7 @@ body {
 
 
 /* Tablet */
+
 @media screen and (min-width: 480px) {
     
     body {
@@ -239,6 +240,7 @@ body {
     }
 }
    
+
 /* PC */
 
 @media screen and (min-width: 860px) {
@@ -266,6 +268,26 @@ body {
 
     .nazov {
         font-size: 28px;
+    }
+
+
+    
+    /* HOVER */
+    
+    .top,
+    .recept_2,
+    .recept_3,
+    .recept_4,
+    .recept_5 {
+        transition: 0.3s;
+    }
+    
+    .top:hover,
+    .recept_2:hover,
+    .recept_3:hover,
+    .recept_4:hover,
+    .recept_5:hover {
+        filter: brightness(70%);
     }
 
 

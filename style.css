@@ -170,12 +170,6 @@ body {
 
 @media screen and (min-width: 480px) {
     
-    body {
-        display: flex;
-        flex-direction: column;
-        
-    }
-
     .ostatne {
         flex-direction: row;
         flex-wrap: wrap;
@@ -243,11 +237,12 @@ body {
 /* PC */
 
 @media screen and (min-width: 860px) {
-    
 
-    body {
+    .obal {
+        display: flex;
         flex-direction: row;
     }
+    
 
     .top {
         min-height: 400px;
@@ -268,11 +263,7 @@ body {
     .nazov {
         font-size: 28px;
     }
-
-    .paticka {
-        display: none;
-    }
-
+  
 
     /* HOVER */
     

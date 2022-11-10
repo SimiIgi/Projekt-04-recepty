@@ -116,7 +116,6 @@ body {
     justify-content: space-between;
 
     
-    
 }
 
 .recept_3 {
@@ -270,8 +269,11 @@ body {
         font-size: 28px;
     }
 
+    .paticka {
+        display: none;
+    }
 
-    
+
     /* HOVER */
     
     .top,

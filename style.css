@@ -43,7 +43,11 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    
+    min-height: 100vh;
+}
+
+.paticka {
+    margin-top: auto;
 }
 
 /* hlavný recept */
